@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: skyblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  width: 100vw;
+  height: 5vw;
+  background-color: magenta;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Nav-opt{
+  padding-top: 10px;
+}
+
+.nav-img{
+margin-left: 20px;
+/* width: 35px; */
+height: 40px;
+
+/* top: 10px; */
+}
+
+.nav-opt{
+  color: white;
+text-decoration: none;
+font-size: 20px;
+margin-left: 35px ;
+}
+
