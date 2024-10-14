@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Updated from './Components/Updated';
-import {  BrowserRouter, Routes ,Route, Link} from "react-router-dom";
+import {  BrowserRouter, Routes ,Route,} from "react-router-dom";
 
 
 
@@ -33,7 +33,7 @@ const fetchData = async() => {
        <Navbar/>  
       <Routes>
        <Route path="/" element={ <Home albumData={albumData} setAlbumData={setAlbumData}/>} />
-       <Route exact path="/updated/" element={ <Updated/>} />
+       <Route path="/updated/:id" element={ <Updated albumData={albumData} setAlbumData={setAlbumData}/>} />
       </Routes>
      </BrowserRouter>
     </div>
