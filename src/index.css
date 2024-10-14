@@ -73,6 +73,7 @@ background-color: rgb(241, 239, 239);
   background-color: rgb(85, 107, 247);
   color:white;
   border-radius: 10px;
+  border: 2px solid black;
   margin-right: 30px;
   cursor: pointer;
 }
@@ -94,4 +95,32 @@ background-color: rgb(241, 239, 239);
 
 .btn2:hover{
   border: 2px solid grey;
+}
+
+.updated{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.upd-image{
+  height: 40px;
+  padding-bottom: 25px;
+}
+
+.upd-input{
+  background-color: yellow;
+  border: 1px solid black;
+  width: 20%;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.upd-btn{
+  width: 80px;
+  height: 30px;
+  background-color: rgb(6, 33, 209);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
 }

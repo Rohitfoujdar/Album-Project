@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 export default function Home({albumData, setAlbumData}){
 
@@ -15,7 +17,7 @@ const handleDelete = (rohit)=>{
           <div className='id-title'>
             <p className='id'>{item.id}.</p>
             <p className='title' >{item.title}</p>
-            <button className='btn1'>Update</button>
+            <Link to={"/Updated"}><button className='btn1'>Update</button></Link>
             <button className='btn2' onClick={()=>handleDelete(item.id)}>Delete</button>
           </div>  
          </div>

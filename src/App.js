@@ -2,6 +2,10 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
+import Updated from './Components/Updated';
+import {  BrowserRouter, Routes ,Route, Link} from "react-router-dom";
+
+
 
 
 const App = () => {
@@ -25,8 +29,13 @@ const fetchData = async() => {
 
   return ( 
     <div>
-      <Navbar/> 
-      <Home albumData={albumData} setAlbumData={setAlbumData}/>    
+     <BrowserRouter>
+       <Navbar/>  
+      <Routes>
+       <Route path="/" element={ <Home albumData={albumData} setAlbumData={setAlbumData}/>} />
+       <Route exact path="/updated/" element={ <Updated/>} />
+      </Routes>
+     </BrowserRouter>
     </div>
   );
 }
