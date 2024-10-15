@@ -33,7 +33,7 @@ const fetchData = async() => {
        <Navbar/>  
       <Routes>
        <Route path="/" element={ <Home albumData={albumData} setAlbumData={setAlbumData}/>} />
-       <Route path="/updated/:id" element={ <Updated albumData={albumData} setAlbumData={setAlbumData}/>} />
+       <Route path="/updated/:id/" element={ <Updated albumData={albumData} setAlbumData={setAlbumData}/>} />
       </Routes>
      </BrowserRouter>
     </div>
