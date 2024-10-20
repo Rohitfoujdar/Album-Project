@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
 }
 
 code {
@@ -116,11 +116,11 @@ background-color: rgb(241, 239, 239);
 }
 
 .upd-btn{
-  width: 80px;
+  width: 120px;
   height: 30px;
   background-color: rgb(6, 33, 209);
   color: white;
   border: none;
   border-radius: 5px;
-  
+cursor: pointer;
 }
